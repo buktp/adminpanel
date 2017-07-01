@@ -11,3 +11,8 @@ function toggleSidebar() {
     overlay.classList.toggle("overlay_shown");
     hamburger.classList.toggle("hamburger_activated")
 }
+
+function showInfo() {
+    document.querySelector(".content-wrapper").innerText = document.body.clientWidth;
+};
+showInfo();
