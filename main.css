@@ -44,9 +44,6 @@ body {
     border-radius: 3px;
     background-color: #37474F;
 }
-.hamburger:hover .hamburger__item {
-    background-color: #455A64;
-}
 .hamburger_activated {
     transform: rotateZ(90deg);
 }
