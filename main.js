@@ -16,3 +16,5 @@ function showInfo() {
     document.querySelector(".content-wrapper").innerText = document.body.clientWidth;
 };
 showInfo();
+
+// i will just add this comment
